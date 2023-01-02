@@ -1,0 +1,58 @@
+.layoutMap {
+  height: 1000px;
+  width: 1000px;
+  margin-left: 250px;
+  margin-bottom: -200px;
+}
+
+.mainHeader {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.startNowButton {
+  border: 5px solid rgb(52, 98, 52);
+  color: white;
+  border-radius: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-left: 600px;
+  margin-right: 600px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+  background-color: rgb(52, 98, 52);
+}
+
+.formFill {
+  background: rgb(88, 88, 155);
+  font-size: 20px; 
+  padding: 10px; 
+  border: 1px solid lightgray; 
+  margin-bottom: 1000px;
+  margin-left: 500px;
+  margin-right: 500px;
+  border-radius: 20px;
+  height: 900px;
+  color: white;;
+}
+
+.formFillData {
+  display: flex;
+  flex-direction: column;
+}
+
+.formQuestions {
+  margin-bottom: 20px;
+}
+
+.formButton {
+  margin-left: 100px;
+  margin-right: 100px;
+  border-radius: 25px;
+  background-color: orange;
+  height: 50px;
+}
