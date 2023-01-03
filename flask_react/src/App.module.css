@@ -1,8 +1,12 @@
+html {
+  scroll-behavior: smooth;
+}
+
 .layoutMap {
   height: 1000px;
   width: 1000px;
   margin-left: 250px;
-  margin-bottom: -200px;
+  margin-bottom: -300px;
 }
 
 .mainHeader {
@@ -28,21 +32,23 @@
 }
 
 .formFill {
-  background: rgb(88, 88, 155);
+  background: rgb(118, 118, 122);
   font-size: 20px; 
   padding: 10px; 
   border: 1px solid lightgray; 
   margin-bottom: 1000px;
   margin-left: 500px;
   margin-right: 500px;
+  width: 500px;
   border-radius: 20px;
   height: 900px;
-  color: white;;
+  color: white;
 }
 
 .formFillData {
   display: flex;
   flex-direction: column;
+  margin-left: 30px;
 }
 
 .formQuestions {
@@ -55,4 +61,38 @@
   border-radius: 25px;
   background-color: orange;
   height: 50px;
+}
+
+.orgBox {
+  display: flex;
+  flex-direction: row;
+  font-size: 20px; 
+  padding: 10px; 
+  border: 1px solid lightgray; 
+  margin-bottom: 200px;
+  margin-left: 100px;
+  margin-left: 20px;
+  border-radius: 20px;
+  height: 200px;
+  width: 200px;
+  color: white;
+  padding-right: 100px;
+}
+
+.orgList {
+  display: flex;
+  flex-direction: row;
+}
+
+.orgDivider {
+  margin-bottom: -100px;
+}
+
+.orgTitle {
+  text-align: center;
+  font-size: 30px;
+}
+
+.orgCollection {
+  margin-top: -900px;
 }
